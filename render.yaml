@@ -1,5 +1,5 @@
 version: 1
-name: your-app-name
+name: contacts_book
 buildCommand: npm install
 startCommand: npm start
 staticPublishPath: dist
