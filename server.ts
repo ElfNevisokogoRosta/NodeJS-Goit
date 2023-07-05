@@ -1,6 +1,7 @@
 import app from "./app";
 import mongoose from "mongoose";
-import DB_HOST from "./config";
+const DB_HOST = process.env.DB_HOST;
+console.log(DB_HOST);
 mongoose
   .connect(DB_HOST)
   .then(() =>
