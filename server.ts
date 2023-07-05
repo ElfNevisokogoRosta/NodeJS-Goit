@@ -1,7 +1,6 @@
 import app from "./app";
 import mongoose from "mongoose";
-const DB_HOST =
-  "mongodb+srv://Kolya:123456789A@cluster0.vjpjfz5.mongodb.net/contacts_book?retryWrites=true&w=majority";
+import DB_HOST from "./config";
 mongoose
   .connect(DB_HOST)
   .then(() =>
